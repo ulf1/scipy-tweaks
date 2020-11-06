@@ -7,7 +7,7 @@ def read(fname):
 
 
 setup(name='scipy-tweaks',
-      version='0.1.0',
+      version='0.1.1',
       description='Utility functions for scipy.',
       long_description=read('README.md'),
       long_description_content_type='text/markdown',
@@ -19,5 +19,5 @@ setup(name='scipy-tweaks',
       install_requires=[
           'setuptools>=40.0.0',
           'scipy>=1.5.4'],
-      python_requires='>=3.8',
+      python_requires='>=3.6',
       zip_safe=False)
