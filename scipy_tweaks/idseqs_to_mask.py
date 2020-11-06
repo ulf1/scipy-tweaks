@@ -49,7 +49,7 @@ def idseqs_to_mask(idseqs: List[List[int]],
     --------
         idseqs = [[1,2,3,4,0,0,1,2], [2,4,2,0,1]]
         masks = idseqs_to_mask(idseqs, n_seqlen=4, ignore=[3], dense=True)
-        # Only for "dense" => <batch_sz, vocab_sz, n_seqlen>
+        # Only for "dense" => <batch_sz, n_seqlen, n_feats>
         masks = np.stack(masks)
 
     Help:
