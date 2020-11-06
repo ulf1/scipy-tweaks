@@ -1,4 +1,6 @@
 # scipy-tweaks
+Utility functions for scipy.
+
 
 ## Table of Contents
 * [Installation](#installation)
