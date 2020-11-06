@@ -17,6 +17,7 @@ setup(name='scipy-tweaks',
       license='MIT',
       packages=['scipy-tweaks'],
       install_requires=[
-          'setuptools>=40.0.0'],
+          'setuptools>=40.0.0',
+          'scipy>=1.5.4'],
       python_requires='>=3.8',
       zip_safe=False)
