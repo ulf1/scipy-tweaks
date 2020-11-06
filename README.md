@@ -54,10 +54,6 @@ rm -r .venv
 ```
 
 
-## Debugging
-* Notebooks to profile python code are in the [profile](http://github.com/ulf1/scipy-tweaks/profile) folder
-
-
 ## Support
 Please [open an issue](https://github.com/ulf1/scipy-tweaks/issues/new) for support.
 
