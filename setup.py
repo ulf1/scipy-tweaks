@@ -8,15 +8,16 @@ def read(fname):
 
 setup(name='scipy-tweaks',
       version='0.1.0',
-      description='lorem ipsum',
+      description='Utility functions for scipy.',
       long_description=read('README.md'),
       long_description_content_type='text/markdown',
       url='http://github.com/ulf1/scipy-tweaks',
       author='Ulf Hamster',
       author_email='554c46@gmail.com',
       license='MIT',
-      packages=['scipy-tweaks'],
+      packages=['scipy_tweaks'],
       install_requires=[
-          'setuptools>=40.0.0'],
+          'setuptools>=40.0.0',
+          'scipy>=1.5.4'],
       python_requires='>=3.8',
       zip_safe=False)
