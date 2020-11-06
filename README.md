@@ -29,10 +29,10 @@ Install a virtual environment
 ```
 python3.8 -m venv .venv
 source .venv/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt --no-cache-dir
-pip install -r requirements-dev.txt --no-cache-dir
-pip install -r requirements-demo.txt --no-cache-dir
+pip3 install --upgrade pip
+pip3 install -r requirements.txt
+pip3 install -r requirements-dev.txt
+pip3 install -r requirements-demo.txt
 ```
 
 (If your git repo is stored in a folder with whitespaces, then don't use the subfolder `.venv`. Use an absolute path without whitespaces.)
