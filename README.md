@@ -1,3 +1,6 @@
+[![PyPI version](https://badge.fury.io/py/scipy-tweaks.svg)](https://badge.fury.io/py/scipy-tweaks)
+
+
 # scipy-tweaks
 Utility functions for scipy.
 
