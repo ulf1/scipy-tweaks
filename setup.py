@@ -23,6 +23,6 @@ setup(name='scipy-tweaks',
       packages=['scipy_tweaks'],
       install_requires=[
           'setuptools>=40.0.0',
-          'scipy>=1.5.4'],
+          'scipy>=1.5.4,<2'],
       python_requires='>=3.6',
       zip_safe=True)

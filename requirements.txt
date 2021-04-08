@@ -1,2 +1,2 @@
 # public packages (see setup.py)
-scipy>=1.5.4
+scipy>=1.5.4,<2
