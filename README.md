@@ -1,4 +1,5 @@
 [![PyPI version](https://badge.fury.io/py/scipy-tweaks.svg)](https://badge.fury.io/py/scipy-tweaks)
+[![scipy-tweaks](https://snyk.io/advisor/python/scipy-tweaks/badge.svg)](https://snyk.io/advisor/python/scipy-tweaks)
 
 
 # scipy-tweaks
